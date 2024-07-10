@@ -1,0 +1,4 @@
+com/victornj/DeptApplication.class
+com/victornj/dubbo/service/DeptService.class
+com/victornj/dubbo/service/impl/DeptServiceImpl.class
+com/victornj/controller/DeptController.class

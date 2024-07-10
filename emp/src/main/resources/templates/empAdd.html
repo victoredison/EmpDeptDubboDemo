@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="" method="post">
+
+    name: <input type="text" name="name"/><br/>
+    photo: <input type="file" name="file"/></br>
+    dept:
+    <select name="did">
+        <option th:each="dept: ${list}" th:value="${dept.id}" th:text="${dept.name}"></option>
+    </select>
+    <input type="submit" value="add">
+
+</form>
+
+
+
+</body>
+</html>
