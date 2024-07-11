@@ -17,6 +17,7 @@ public class DeptServiceImpl implements DeptService {
     @Override
     public List<Dept> findAllDept(){
 
+        System.out.println("inside local deptservice");
        return deptDubboService.findAllDept();
     }
 }

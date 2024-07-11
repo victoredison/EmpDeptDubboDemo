@@ -18,7 +18,7 @@ public class DeptDubboServiceImpl implements DeptDubboService {
     @Override
     public List<Dept> findAllDept(){
 
-
+        System.out.println("inside dubbo provider");
         return deptMapper.findAll();
     }
 

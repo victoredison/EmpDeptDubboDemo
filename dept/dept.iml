@@ -27,6 +27,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="api" />
     <orderEntry type="module" module-name="pojo" />
+    <orderEntry type="module" module-name="api" />
+    <orderEntry type="module" module-name="pojo" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.1.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.1.10.RELEASE" level="project" />

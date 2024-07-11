@@ -12,5 +12,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pojo" />
+    <orderEntry type="module" module-name="pojo" />
   </component>
 </module>
