@@ -6,3 +6,14 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# Ignore class files
+*.class
+
+# Ignore build directories
+/target/
+/build/
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
