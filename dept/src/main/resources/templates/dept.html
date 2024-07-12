@@ -11,12 +11,11 @@
     <tr>
     <th>id</th>
     <th>department name</th>
-    <th>check</th>
     </tr>
     <tr th:each="dept : ${list}">
         <td th:text="${dept.id}"></td>
         <td th:text="${dept.name}"></td>
-        <td><a href="#">check</a></td>
+
     </tr>
 </table>
 </body>
