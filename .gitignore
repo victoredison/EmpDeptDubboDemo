@@ -1,0 +1,10 @@
+# Ignore class files
+*.class
+
+# Ignore build directories
+/target/
+/build/
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml

@@ -2,4 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.victornj.mapper.EmpMapper">
+    <select id="findAll" resultType="com.victornj.pojo.Emp">
+        select id, name from emp;
+    </select>
 </mapper>
